@@ -1,0 +1,11 @@
+.SearchBar{
+    position: relative; 
+    height: 4rem ; width:65rem ;  border: solid;
+    top: 9rem; left: 25rem;  font-size: 2rem;  padding: 1rem; 
+}
+.Magnify{
+    color: black; z-index: 1; position: relative;    top: 9rem; left: 88rem; 
+    font-size: 2rem; background-color:white; border: none; 
+}
+
+

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(17, 37, 66);
+}
+
+.header{
+    
+    position: fixed; display: flex;  left: 0rem; top: 0rem;   height: 7rem; width: 100%; color: #0c0418;
+        background-color: #4a90ac;     border-bottom: solid; border-width: .2vh;
+        justify-content: flex-end;  padding: 2rem; align-items: center;  gap: 6rem  ;
+        z-index: 100; font-size: 1.5rem; 
+        font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+
+}
+.Title{
+   
+    cursor: pointer;
+    font-size: 3rem;
+    margin-right: auto;  
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+
+}
+a{
+    text-decoration: none; 
+}
+a:visited{
+    color: inherit;
+}
+#header_item{
+
+   display: flex; border: none  ;   height: 6.9rem; width:15rem ; justify-content: center ; align-items: center;
+   
+   transition: color  .3s ease-in 0s; transition: background-color .5s ease; border-radius: 1%;
+}
+
+#header_item:hover{
+    background-color: #1446ce; cursor: pointer; color: white ;
+    animation: opacity .3s ease-in 0s; 
+    
+}
+.Cart_icon{
+    font-size: 2rem; 
+    color: yellow;
+
+}
+.Test{
+   color: white; position: absolute;
+    left: 5rem; top: 10rem;
+}
