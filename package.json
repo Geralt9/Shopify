@@ -1,6 +1,6 @@
 {
   "name": "my-react-app",
-  "homepage": "https://Geralt9.github.io/Shopify/",
+  "homepage": "https://Geralt9.github.io/Shopify",
   "private": true,
   "version": "0.0.0",
   "proxy": "http://localhost:8000",
@@ -10,7 +10,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",

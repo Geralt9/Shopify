@@ -45,7 +45,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
 
     <CartProvider>
-  <RouterProvider router={router} />
+  <RouterProvider router={router} basename="/Shopify" />
   </CartProvider>
 
   </StrictMode>,
