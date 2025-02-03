@@ -9,9 +9,9 @@ import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
 import SearchBar from './Pages/SearchBar'
 
 import Chat from './Pages/Chat.jsx'
-
+//
 export default function Payment(){
-
+ 
     return <>
     
     <section className="header" > 
