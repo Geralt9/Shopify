@@ -16,13 +16,13 @@ export default function Payment(){
     
     <section className="header" > 
                 
-            <div className="Title" > <Link to={"/"}>  Shopify </Link> <FontAwesomeIcon icon={faCartShopping}  className="Cart_icon" /> </div>
+            <div className="Title" > <Link to={"/Shopify"}>  Shopify </Link> <FontAwesomeIcon icon={faCartShopping}  className="Cart_icon" /> </div>
 
             <div className="Keyboard" id="header_item"  ><Link  to={"/Keyboards"}> Keyboards </Link></div>
             <div className="Mouse"  id="header_item" >  <Link to={"/Mouses"}> Mouses  </Link></div>
             <div className="Headset"  id="header_item" > <Link to={"/Headsets"}> Headsets </Link></div>
 
-            <div className="Cart" id="header_item" ><Link> My cart  </Link> </div>
+            <div className="Cart" id="header_item" ><Link to={"/MyCart"}> My cart  </Link> </div>
 
      </section>
 

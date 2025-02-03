@@ -17,7 +17,7 @@ import { CartProvider } from './Pages/CartContext.jsx'
 
 const router = createBrowserRouter([{
 
-  path: '/',
+  path: '/Shopify',
   element: <Payment/>,
 
 },
