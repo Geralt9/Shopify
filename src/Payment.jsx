@@ -37,6 +37,8 @@ export default function Payment(){
 
          </section>
 
+         <div> this is a test message </div>
+
 
     </>
 }
