@@ -134,8 +134,8 @@ export const  CartProvider = ({children})=>{
 
     useEffect(()=>{
 
-        const ioUrl = io('http://localhost:8000')
-        const ioUrl2 =  io('http://localhost:8000')
+        const ioUrl = io('https://server-vercel-deployment.vercel.app/')
+        const ioUrl2 =  io('https://server-vercel-deployment.vercel.app/')
 
         setSocket( ioUrl );
         setSocket2(ioUrl2);
